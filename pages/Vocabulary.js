@@ -21,8 +21,6 @@ export function VocabularyScreen() {
     return (
       <View style={styles.container}>
   
-        <Text style={styles.title}> Vocabulary Trainer</Text>
-  
         <Text style={styles.definition}> {definition} </Text>
         
         <View>
@@ -77,7 +75,7 @@ export function VocabularyScreen() {
       borderWidth: 4,
       borderColor: "#20232a",
       borderRadius: 6,
-      color: "#20232a",
+      backgroundColor: "white",
       textAlign: "center",
       fontSize: 30,
       fontWeight: "bold"
@@ -89,9 +87,9 @@ export function VocabularyScreen() {
       borderWidth: 4,
       borderColor: "#20232a",
       borderRadius: 6,
-      color: "#20232a",
+      backgroundColor: "white",
       textAlign: "center",
-      fontSize: 15,
+      fontSize: 30,
     },
   
     mot1: {
